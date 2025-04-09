@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prof. Dato' Sri Dr. Mike Chan</title>
+    <meta name="description" content="Explore the life, legacy, and latest breakthroughs of Prof. Dato' Sri Dr. Mike Chan, a pioneer in regenerative medicine.">
+    <meta name="keywords" content="Mike Chan, regenerative medicine, anti-aging, stem cell therapy, European Wellness, publications, news, events, testimonials">
+    <meta name="author" content="Prof. Dato' Sri Dr. Mike Chan">
+    <link rel="canonical" href="https://example.com/mikechan"> <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .bg-gradient-blue {
+            background: linear-gradient(to bottom, #0f2047, #1a538b); /* Deep blue gradient */
+        }
+        .text-gold {
+            color: #FFD700; /* Gold color */
+        }
+        .bg-glassmorphism {
+            background-color: rgba(255, 255, 255, 0.06); /* Very light white */
+            backdrop-filter: blur(12px); /* Stronger blur */
+            border: 1px solid rgba(255, 255, 255, 0.1); /* Very thin, light border */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25); /* Deeper shadow */
+            border-radius: 1rem; /* More rounded corners */
+        }
+        .hover\:scale-105:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+        .hover\:shadow-lg:hover {
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); /* Stronger shadow */
+            transition: box-shadow 0.3s ease;
+        }
+        .section-title {
+            color: #ffffff; /* White */
+            font-weight: 600;  /* Use 600 for semi-bold */
+            font-size: 2.5rem; /* Larger size */
+            margin-bottom: 2rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* More pronounced shadow */
+        }
+        .parallax {
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .text-charcoal {
+            color: #343a40; /* Darker, charcoal gray */
+        }
+        .border-gold {
+            border-color: #FFD700;
+        }
+        /* Custom CSS for the testimonial slider */
+        .testimonial-slider .slick-slide {
+            margin: 0 15px; /* Add spacing between slides */
+        }
+        .testimonial-slider .slick-dots li button:before {
+            font-size: 10px; /* Adjust dot size */
+            color: #fff; /* Dot color */
+            opacity: 0.7;
+        }
+        .testimonial-slider .slick-dots li.slick-active button:before {
+            color: #FFD700; /* Active dot color */
+            opacity: 1;
+        }
+
+    </style>
+</head>
+<body class="bg-gradient-blue text-white">
+    <header class="sticky top-0 z-50 bg-glassmorphism py-4 transition-all duration-300" id="navbar">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-semibold text-white">
+                <img src="https://via.placeholder.com/150x50?text=Mike+Chan+Logo" alt="Prof. Mike Chan Logo" class="h-12"> </a>
+            <nav class="hidden md:block">
+                <ul class="flex space-x-6">
+                    <li><a href="#home" class="nav-link text-white hover:text-gold transition-colors duration-300">Home</a></li>
+                    <li><a href="#about" class="nav-link text-white hover:text-gold transition-colors duration-300">About</a></li>
+                    <li><a href="#news" class="nav-link text-white hover:text-gold transition-colors duration-300">News</a></li>
+                    <li><a href="#publications" class="nav-link text-white hover:text-gold transition-colors duration-300">Publications</a></li>
+                    <li><a href="#media" class="nav-link text-white hover:text-gold transition-colors duration-300">Media</a></li>
+                    <li><a href="#testimonials" class="nav-link text-white hover:text-gold transition-colors duration-300">Testimonials</a></li>
+                    <li><a href="#contact" class="nav-link text-white hover:text-gold transition-colors duration-300">Contact</a></li>
+                </ul>
+            </nav>
+            <button id="hamburger-btn" class="md:hidden text-white focus:outline-none" aria-label="Toggle Navigation">
+                <i class="fas fa-bars text-xl"></i>
+            </button>
+        </div>
+    </header>
+
+    <div id="mobile-menu" class="hidden fixed top-0 left-0 w-full h-full bg-gray-900 bg-opacity-90 z-50">
+        <div class="bg-gray-800 w-80 h-full absolute right-0 p-6">
+            <div class="flex justify-end mb-4">
+                <button id="close-menu-btn" class="text-white focus:outline-none" aria-label="Close Menu">
+                    <i class="fas fa-times text-xl"></i>
+                </button>
+            </div>
+            <nav class="block">
+                <ul class="space-y-4">
+                    <li><a href="#home" class="mobile-nav-link block text-lg text-white hover:text-gold transition-colors duration-300">Home</a></li>
+                    <li><a href="#about" class="mobile-nav-link block text-lg text-white hover:text-gold transition-colors duration-300">About</a></li>
+                    <li><a href="#news" class="mobile-nav-link block text-lg text-white hover:text-gold transition-colors duration-300">News</a></li>
+                    <li><a href="#publications" class="mobile-nav-link block text-lg text-white hover:text-gold transition-colors duration-300">Publications</a></li>
+                    <li><a href="#media" class="mobile-nav-link block text-lg text-white hover:text-gold transition-colors duration-300">Media</a></li>
+                    <li><a href="#testimonials" class="mobile-nav-link block text-lg text-white hover:text-gold transition-colors duration-300">Testimonials</a></li>
+                    <li><a href="#contact" class="mobile-nav-link block text-lg text-white hover:text-gold transition-colors duration-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <main>
+        <section id="home" class="h-screen flex flex-col justify-center items-center parallax" style="background-image: url('https://via.placeholder.com/1920x1080?text=Hero+Image');"> <div class="container mx-auto px-4 text-center">
+                <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4" data-aos="fade-up" data-aos-duration="1000">
+                    Pioneering Regenerative Medicine <span class="text-gold">for a Healthier Future</span>
+                </h1>
+                <p class="text-lg sm:text-xl text-white mb-8" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    Explore the life, legacy, and latest breakthroughs of Prof. Dato' Sri Dr. Mike Chan
+                </p>
+                <div class="flex justify-center space-x-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                    <a href="#news" class="bg-gold text-blue-900 px-6 py-3 rounded-full font-semibold hover:bg-yellow-500 hover:scale-105 transition-all duration-300">Read Latest News</a>
+                    <a href="#publications" class="bg-transparent border-2 border-gold text-gold px-6 py-3 rounded-full font-semibold hover:bg-gold hover:text-blue-900 hover:scale-105 transition-all duration-300">View Publications</a>
+                    <a href="https://mikechan.org/" target="_blank" rel="noopener noreferrer" class="bg-transparent border-2 border-gold text-gold px-6 py-3 rounded-full font-semibold hover:bg-gold hover:text-blue-900 hover:scale-105 transition-all duration-300">Visit Main Site</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-16 bg-gray-900">
+            <div class="container mx-auto px-4">
+                <h2 class="section-title text-center" data-aos="fade-down" data-aos-duration="1000">About Prof. Mike Chan</h2>
+                <div class="grid md:grid-cols-2 gap-8 items-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <div>
+                        <p class="text-lg text-gray-300 mb-6">
+                            With over 40 years of experience in regenerative medicine, Prof. Dato' Sri Dr. Mike Chan is a pioneering force in the global healthcare landscape.  As the co-founder of the European Wellness Center, he has been instrumental in advancing anti-aging and cellular therapy solutions worldwide.  He is a prolific author, with over 20 books to his name, and a respected voice in the field.
+                        </p>
+                        <blockquote class="border-l-4 border-gold pl-4 italic text-gray-200 mb-6">
+                            <p>"Science alone is not enough — it must be personalized, precise, and preventive."</p>
+                        </blockquote>
+                        <p class="text-lg text-gray-300 mb-6">
+                            His work extends beyond the clinic, encompassing research, education, and advocacy for innovative healthcare practices.  He is dedicated to improving lives and transforming the future of medicine.
+                        </p>
+                        <a href="https://mikechan.org/" target="_blank" rel="noopener noreferrer" class="text-gold hover:text-yellow-500 transition-colors duration-300 font-semibold">
+                            Visit the official website →
+                        </a>
+                    </div>
+                    <div>
+                        <img src="https://via.placeholder.com/600x400?text=Prof.+Mike+Chan" alt="Prof. Mike Chan" class="rounded-lg shadow-lg"> </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="news" class="py-16 bg-gradient-blue">
+            <div class="container mx-auto px-4">
+                <h2 class="section-title text-center" data-aos="fade-down" data-aos-duration="1000">Latest News & Activities</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="bg-glassmorphism p-6 rounded-lg hover:scale-105 hover:shadow-lg transition-all duration-300">
+                        <h3 class="text-xl font-semibold text-white mb-2">Autism Health Summit</h3>
+                        <p class="text-gray-300 mb-4">Prof. Mike Chan will be speaking at the Autism Health Summit in San Diego, April 2025.</p>
+                        <a href="#" class="text-gold hover:text-yellow-500 transition-colors duration-300 font-semibold">Learn More →</a>
+                    </div>
+                    <div class="bg-glassmorphism p-6 rounded-lg hover:scale-105 hover:shadow-lg transition-all duration-300">
+                        <h3 class="text-xl font-semibold text-white mb-2">Recognition in China</h3>
+                        <p class="text-gray-300 mb-4">Prof. Mike Chan was recognized in ‘Revival Glory’ as one of the 75 Outstanding Role Models in China.</p>
+                        <a href="#" class="text-gold hover:text-yellow-500 transition-colors duration-300 font-semibold">Read Article →</a>
+                    </div>
+                    <div class="bg-glassmorphism p-6 rounded-lg hover:scale-105 hover:shadow-lg transition-all duration-300">
+                        <h3 class="text-xl font-semibold text-white mb-2">New Research Published</h3>
+                        <p class="text-gray-300 mb-4">Prof. Chan's latest research on stem cell therapies has been published in a leading medical journal.</p>
+                        <a href="#" class="text-gold hover:text-yellow-500 transition-colors duration-300 font-semibold">View Publication →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="publications" class="py-16 bg-gray-900">
+            <div class="container mx-auto px-4">
+                <h2 class="section-title text-center" data-aos="fade-down" data-aos-duration="1000">Publications</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="bg-glassmorphism p-6 rounded-lg hover:scale-105 hover:shadow-lg transition-all duration-300">
+                        <img src="https://via.placeholder.com/200x300?text=Book+Cover+1" alt="Hair & Scalp Disorders: Book Two" class="rounded-md mb-4"> <h3 class="text-xl font-semibold text-white mb-2">Hair & Scalp Disorders: Book Two (2025)</h3>
+                        <p class="text-gray-300 mb-4">A comprehensive guide to understanding and treating hair and scalp disorders.</p>
+                        <a href="#" class="text-gold hover:text-yellow-500 transition-colors duration-300 font-semibold">Order Now →</a>
+                    </div>
+                    <div class="bg-glassmorphism p-6 rounded-lg hover:scale-105 hover:shadow-lg transition-all duration-300">
+                        <img src="https://via.placeholder.com/200x300?text=Book+Cover+2" alt="Stem Cell Therapies and Aging" class="rounded-md mb-4"> <h3 class="text-xl font-semibold text-white mb-2">Stem Cell Therapies and Aging (2024)</h3>
+                        <p class="text-gray-300 mb-4">Exploring the latest advancements in stem cell therapies and their impact on aging.</p>
+                        <a href="#" class="text-gold hover:text-yellow-500 transition-colors duration-300 font-semibold">Learn More →</a>
+                    </div>
+                    <div class="bg-glassmorphism p-6 rounded-lg hover:scale-105 hover:shadow-lg transition-all duration-300">
+                        <img src="https://via.placeholder.com/200x300?text=Book+Cover+3" alt="Book Name" class="rounded-md mb-4"> <h3 class="text-xl font-semibold text-white mb-2">[Book Title] (YYYY)</h3>
+                        <p class="text-gray-300 mb-4">[Book Description]</p>
+                        <a href="#" class="text-gold hover:text-yellow-500 transition-colors duration-300 font-semibold">Learn More →</a>
+                    </div>
+                </div>
+                 <div class="mt-8 text-center">
+                    <a href="https://www.researchgate.net/" target="_blank" rel="noopener noreferrer" class="text-gold hover:text-yellow-500 transition-colors duration-300 font-semibold">
+                        Visit ResearchGate →
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="media" class="py-16 bg-gradient-blue">
+            <div class="container mx-auto px-4">
+                <h2 class="section-title text-center" data-aos="fade-down" data-aos-duration="1000">Media Highlights</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="bg-glassmorphism p-4 rounded-lg hover:scale-105 hover:shadow-lg transition-all duration-300">
+                        <img src="https://via.placeholder.com/400x300?text=Fortune+Magazine" alt="Fortune Magazine" class="rounded-md mb-2"> <h4 class="text-lg font-semibold text-white mb-1">Fortune Magazine</h4>
+                        <p class="text-gray-300 text-sm">Featured in Top 10 Healthcare Innovators issue.</p>
+                        <a href="#" class="text-gold hover:text-yellow-500 transition-colors duration-300 font-semibold">Read More →</a>
+                    </div>
+                    <div class="bg-glassmorphism p-4 rounded-lg hover:scale-105 hover:shadow-lg transition-all duration-300">
+                        <img src="https://via.placeholder.com/400x300?text=Foreign+Trade+Magazine" alt="Foreign Trade Magazine" class="rounded-md mb-2"> <h4 class="text-lg font-semibold text-white mb-1">Foreign Trade Magazine</h4>
+                        <p class="text-gray-300 text-sm">Interview on the future of regenerative medicine.</p>
+                         <a href="#" class="text-gold hover:text-yellow-500 transition-colors duration-300 font-semibold">Watch Interview →</a>
+                    </div>
+                     <div class="bg-glassmorphism p-4 rounded-lg hover:scale-105 hover:shadow-lg transition-all duration-300">
+                        <img src="https://via.placeholder.com/400x300?text=TV+Interview" alt="TV Interview" class="rounded-md mb-2"> <h4 class="text-lg font-semibold text-white mb-1">National TV Interview</h4>
+                        <p class="text-gray-300 text-sm">Discussing the latest breakthroughs in stem cell research.</p>
+                        <a href="#" class="text-gold hover:text-yellow-500 transition-colors duration-300 font-semibold">Watch Now →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="py-16 bg-gray-900">
+            <div class="container mx-auto px-4">
+                <h2 class="section-title text-center" data-aos="fade-down" data-aos-duration="1000">Testimonials & Accolades</h2>
+                <div class="testimonial-slider" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="bg-glassmorphism p-6 rounded-lg">
+                        <p class="text-lg italic text-gray-200 mb-4">"Prof. Chan's work has been truly transformative. His dedication to advancing regenerative medicine is unparalleled."</p>
+                        <p class="text-gold font-semibold">- Dr. John Smith, Collaborator</p>
+                    </div>
+                    <div class="bg-glassmorphism p-6 rounded-lg">
+                        <p class="text-lg italic text-gray-200 mb-4">"A visionary leader in the field. Prof. Chan's insights have shaped the future of healthcare."</p>
+                        <p class="text-gold font-semibold">- Dr. Jane Doe, Industry Peer</p>
+                    </div>
+                    <div class="bg-glassmorphism p-6 rounded-lg">
+                        <p class="text-lg italic text-gray-200 mb-4">"I have witnessed firsthand the positive impact of Prof. Chan's treatments on patients' lives."</p>
+                        <p class="text-gold font-semibold">- Sarah Williams, Patient</p>
+                    </div>
+                     <div class="bg-glassmorphism p-6 rounded-lg">
+                        <p class="text-lg italic text-gray-200 mb-4">"Prof. Chan's contributions to the field are immense.  His research is groundbreaking."</p>
+                        <p class="text-gold font-semibold">- David Lee, Researcher</p>
+                    </div>
+                </div>
+                <div class="mt-8 text-center">
+                    <h4 class="text-xl font-semibold text-white mb-2">Awards & Recognitions</h4>
+                    <p class="text-gray-300">
+                        [List of awards, honorary recognitions, and global speaking engagements]
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-16 bg-gradient-blue">
+            <div class="container mx-auto px-4">
+                <h2 class="section-title text-center" data-aos="fade-down" data-aos-duration="1000">Contact</h2>
+                <div class="bg-glassmorphism p-8 rounded-lg shadow-lg max-w-md mx-auto" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <form id="contact-form" class="space-y-6">
+                        <div>
+                            <label for="name" class="block text-gray-300 text-sm font-bold mb-2">Name</label>
+                            <input type="text" id="name" name="name" class="shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline bg-white bg-opacity-80" placeholder="Your Name" required>
+                        </div>
+                        <div>
+                            <label for="email" class="block text-gray-300 text-sm font-bold mb-2">Email</label>
+                            <input type="email" id="email" name="email" class="shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline bg-white bg-opacity-80" placeholder="Your Email" required>
+                        </div>
+                        <div>
+                            <label for="message" class="block text-gray-300 text-sm font-bold mb-2">Message</label>
+                            <textarea id="message" name="message" class="shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline bg-white bg-opacity-80 h-32 resize-y" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="bg-gold text-blue-900 px-6 py-3 rounded-full font-semibold hover:bg-yellow-500 hover:scale-105 transition-all duration-300 w-full">Send Message</button>
+                    </form>
+                </div>
+                <div class="mt-8 text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                    <h4 class="text-xl font-semibold text-white mb-4">Connect with Prof. Mike Chan</h4>
+                    <div class="flex justify-center space-x-4">
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white transition-colors duration-300" aria-label="Facebook"><i class="fab fa-facebook-f text-xl"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white transition-colors duration-300" aria-label="Instagram"><i class="fab fa-instagram text-xl"></i></a>
+                        <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white transition-colors duration-300" aria-label="YouTube"><i class="fab fa-youtube text-xl"></i></a>
+                        <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white transition-colors duration-300" aria-label="TikTok"><i class="fab fa-tiktok text-xl"></i></a>
+                        <a href="https://www.weibo.com/" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white transition-colors duration-300" aria-label="Weibo"><i class="fab fa-weibo text-xl"></i></a>
+                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white transition-colors duration-300" aria-label="LinkedIn"><i class="fab fa-linkedin-in text-xl"></i></a>
+                         <a href="https://www.xiaohongshu.com/" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white transition-colors duration-300" aria-label="Xiao Hong Shu"><i class="fa-brands fa-xiaohongshu text-xl"></i></a>
+                    </div>
+                    <div class="mt-6 pt-6 border-t border-gray-700">
+                        <h5 class="text-lg font-semibold text-white mb-2">Corporate Links (Optional)</h5>
+                        <div class="flex justify-center space-x-4">
+                            <a href="https://www.facebook.com/EuropeanWellness/" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white transition-colors duration-300" aria-label="European Wellness Facebook"><i class="fab fa-facebook-f text-xl"></i></a>
+                            <a href="https://www.instagram.com/europeanwellness_group/" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white transition-colors duration-300" aria-label="European Wellness Instagram"><i class="fab fa-instagram text-xl"></i></a>
+                            <a href="https://www.youtube.com/user/EuropeanWellness" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white transition-colors duration-300" aria-label="European Wellness YouTube"><i class="fab fa-youtube text-xl"></i></a>
+                            <a href="https://www.linkedin.com/company/european-wellness-group/" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white transition-colors duration-300" aria-label="European Wellness LinkedIn"><i class="fab fa-linkedin-in text-xl"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-900 py-6">
+        <div class="container mx-auto px-4 text-center text-gray-400">
+            <p class="mb-4">
+                "Pioneering Regenerative Medicine for a Healthier Future"
+            </p>
+            <p class="mb-4">
+                Visit the official website: <a href="https://mikechan.org/" target="_blank" rel="noopener noreferrer" class="text-gold hover:text-yellow-500 transition-colors duration-300">mikechan.org</a>
+            </p>
+            <div class="mt-4 flex justify-center space-x-4">
+                 <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white transition-colors duration-300" aria-label="Facebook"><i class="fab fa-facebook-f text-xl"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white transition-colors duration-300" aria-label="Instagram"><i class="fab fa-instagram text-xl"></i></a>
+                        <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white transition-colors duration-300" aria-label="YouTube"><i class="fab fa-youtube text-xl"></i></a>
+                        <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white transition-colors duration-300" aria-label="TikTok"><i class="fab fa-tiktok text-xl"></i></a>
+                        <a href="https://www.weibo.com/" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white transition-colors duration-300" aria-label="Weibo"><i class="fab fa-weibo text-xl"></i></a>
+                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white transition-colors duration-300" aria-label="LinkedIn"><i class="fab fa-linkedin-in text-xl"></i></a>
+                         <a href="https://www.xiaohongshu.com/" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white transition-colors duration-300" aria-label="Xiao Hong Shu"><i class="fa-brands fa-xiaohongshu text-xl"></i></a>
+            </div>
+            <p class="mt-4">
+                For press and media inquiries, please contact: <a href="mailto:press@example.com" class="text-gold hover:text-yellow-500 transition-colors duration-300">press@example.com</a>
+            </p>
+             <div class="mt-4">
+                <input type="email" placeholder="Enter your email for newsletter signup" class="bg-white bg-opacity-10 border border-gray-700 rounded-full px-4 py-2 text-white w-64 focus:outline-none focus:ring-2 focus:ring-gold" />
+                <button class="bg-gold text-blue-900 px-6 py-2 rounded-full font-semibold hover:bg-yellow-500 hover:scale-105 transition-all duration-300 ml-2">Subscribe</button>
+            </div>
+            <p class="mt-6 text-sm">
+                &copy; 2025 Prof. Dato' Sri Dr. Mike Chan. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+
+    <script>
+        AOS.init({
+            once: true, // Only run animations once
+        });
+
+        $(document).ready(function() {
+            // Testimonial Slider
+            $('.testimonial-slider').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                slidesToShow: 1,
+                adaptiveHeight: true,
+                autoplay: true,
+                autoplaySpeed: 5000,
+            });
+
+            // Smooth scrolling for navigation links
+            $('a[href^="#"]').on('click', function(e) {
+                e.preventDefault();
+
+                var target = this.hash;
+                var $target = $(target);
+
+                $('html, body').animate({
+                    'scrollTop': $target.offset().top
+                }, 800, 'swing');
+            });
+
+           // Highlight active navigation link on scroll
+            $(document).on('scroll', function() {
+                var scrollPosition = $(this).scrollTop();
+                $('nav a').each(function() {
+                    var currentLink = $(this);
+                    var refElement = $(currentLink.attr("href"));
+                    if (refElement.position().top <= scrollPosition && refElement.position().top + refElement.height() > scrollPosition) {
+                        $('nav a').removeClass("active");
+                        currentLink.addClass("active");
+                    } else {
+                        currentLink.removeClass("active");
+                    }
+                });
+            });
+
+            // Sticky navbar
+            $(window).on('scroll', function() {
+                if ($(window).scrollTop() > 100) {
+                    $('#navbar').addClass('shadow-lg');
+                    $('#navbar').removeClass('py-4');
+                    $('#navbar').addClass('py-3');
+                } else {
+                    $('#navbar').removeClass('shadow-lg');
+                    $('#navbar').addClass('py-4');
+                    $('#navbar').removeClass('py-3');
+                }
+            });
+
+            // Mobile menu toggle
+            $('#hamburger-btn').on('click', function() {
+                $('#mobile-menu').removeClass('hidden');
+                $('body').addClass('overflow-hidden');
+            });
+
+            $('#close-menu-btn').on('click', function() {
+                $('#mobile-menu').addClass('hidden');
+                $('body').removeClass('overflow-hidden');
+            });
+
+            $('.mobile-nav-link').on('click', function() {
+                $('#mobile-menu').addClass('hidden');
+                $('body').removeClass('overflow-hidden');
+            });
+
+            // Form submission (basic example)
+            $('#contact-form').on('submit', function(e) {
+                e.preventDefault();
+                var name = $('#name').val();
+                var email = $('#email').val();
+                var message = $('#message').val();
+
+                // Basic validation (you should use a more robust validation library)
+                if (name === '' || email === '' || message === '') {
+                    alert('Please fill in all fields.');
+                    return;
+                }
+
+                // In a real application, you would send the data to a server using AJAX
+                console.log('Name:', name);
+                console.log('Email:', email);
+                console.log('Message:', message);
+                alert('Message sent successfully!  (This is a demo)');
+                $('#contact-form')[0].reset(); // Clear the form
+            });
+            // Auto-highlight active nav item
+            $(window).on('scroll', function() {
+                var currentSectionId = '';
+                $('section').each(function(){
+                    var top = $(this).offset().top - 100; // Adjust as needed
+                    var id = $(this).attr('id');
+                    if ($(window).scrollTop() >= top) {
+                        currentSectionId = id;
+                    }
+                });
+                $('nav .nav-link').removeClass('active');
+                $('nav a[href="#' + currentSectionId + '"]').addClass('active');
+
+                $('.mobile-nav-link').removeClass('active');
+                $('.mobile-nav-link[href="#' + currentSectionId + '"]').addClass('active');
+            });
+        });
+    </script>
+</body>
+</html>
